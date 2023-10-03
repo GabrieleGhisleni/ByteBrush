@@ -154,7 +154,15 @@
         "id": 1,
         "name": "React",
         "file_path": "/allCourses/allMarkdownCourses/react/react-toc.md",
-        "image": "allCourses/courseCardImages/react.jpeg"
+        "image": "allCourses/courseCardImages/react.jpeg",
+        "topics": [
+          {
+            "id": 1,
+            "name": "React",
+            "file_path": "/allCourses/allMarkdownCourses/react/react-toc.md",
+            "image": "allCourses/courseCardImages/react.jpeg"
+          }
+        ]
       }
     ]
   },

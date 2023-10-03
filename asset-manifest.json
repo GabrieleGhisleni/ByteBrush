@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ByteBrush/static/css/main.b4a0fbac.css",
-    "main.js": "/ByteBrush/static/js/main.1e6e6939.js",
+    "main.css": "/ByteBrush/static/css/main.ea624448.css",
+    "main.js": "/ByteBrush/static/js/main.10ae861c.js",
     "static/js/787.6e91de37.chunk.js": "/ByteBrush/static/js/787.6e91de37.chunk.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/ByteBrush/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/ByteBrush/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -64,12 +64,12 @@
     "static/media/KaTeX_Size3-Regular.woff": "/ByteBrush/static/media/KaTeX_Size3-Regular.7947224e8a9914fa332b.woff",
     "static/media/KaTeX_Size3-Regular.woff2": "/ByteBrush/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/ByteBrush/index.html",
-    "main.b4a0fbac.css.map": "/ByteBrush/static/css/main.b4a0fbac.css.map",
-    "main.1e6e6939.js.map": "/ByteBrush/static/js/main.1e6e6939.js.map",
+    "main.ea624448.css.map": "/ByteBrush/static/css/main.ea624448.css.map",
+    "main.10ae861c.js.map": "/ByteBrush/static/js/main.10ae861c.js.map",
     "787.6e91de37.chunk.js.map": "/ByteBrush/static/js/787.6e91de37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4a0fbac.css",
-    "static/js/main.1e6e6939.js"
+    "static/css/main.ea624448.css",
+    "static/js/main.10ae861c.js"
   ]
 }
