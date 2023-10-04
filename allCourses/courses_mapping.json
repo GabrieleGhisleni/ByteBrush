@@ -7,14 +7,20 @@
       {
         "id": 1,
         "name": "Terraform",
-        "file_path": "/allCourses/allMarkdownCourses/terraform/terraform-toc.md",
+        "file_path": "/allCourses/allMarkdownCourses/infrastructure/terraform/terraform-toc.md",
         "image": "allCourses/courseCardImages/terraform.png"
       },
       {
         "id": 2,
         "name": "Ansible-pull",
-        "file_path": "/allCourses/allMarkdownCourses/aws.md",
+        "file_path": "/allCourses/allMarkdownCourses/infrastructure/ansible/ansible-toc.md",
         "image": "allCourses/courseCardImages/ansible.png"
+      },
+      {
+        "id": 3,
+        "name": "Observability",
+        "file_path": "/allCourses/allMarkdownCourses/infrastructure/observability/observability-toc.md",
+        "image": "allCourses/courseCardImages/observability.jpg"
       }
     ]
   },
@@ -25,22 +31,89 @@
     "courses": [
       {
         "id": 1,
-        "name": "AWS services",
-        "file_path": "/allCourses/allMarkdownCourses/aws/learning-toc.md",
-        "image": "allCourses/courseCardImages/aws.png"
+        "name": "AWS IaM",
+        "file_path": "/allCourses/allMarkdownCourses/aws/1. IAM-toc.md",
+        "image": "allCourses/courseCardImages/iam.png"
+      },
+      {
+        "id": 2,
+        "name": "AWS Ec2",
+        "file_path": "/allCourses/allMarkdownCourses/aws/2. Ec2-toc.md",
+        "image": "allCourses/courseCardImages/ec2.png"
+      },
+      {
+        "id": 3,
+        "name": "AWS S3",
+        "file_path": "/allCourses/allMarkdownCourses/aws/3. S3 buckets-toc.md",
+        "image": "allCourses/courseCardImages/s3.png"
+      },
+      {
+        "id": 4,
+        "name": "AWS DBS",
+        "file_path": "/allCourses/allMarkdownCourses/aws/4. Dbs-toc.md",
+        "image": "allCourses/courseCardImages/dbs.png"
+      },
+      {
+        "id": 5,
+        "name": "AWS ECR, Lambda and others",
+        "file_path": "/allCourses/allMarkdownCourses/aws/5. ECR, Lambda and others-toc.md",
+        "image": "allCourses/courseCardImages/lambda.jpg"
+      },
+      {
+        "id": 6,
+        "name": "AWS IaC",
+        "file_path": "/allCourses/allMarkdownCourses/aws/6. AWS IaC-toc.md",
+        "image": "allCourses/courseCardImages/iac.png"
+      },
+      {
+        "id": 7,
+        "name": "AWS Global infrastructure",
+        "file_path": "/allCourses/allMarkdownCourses/aws/7. Global infrastructure-toc.md",
+        "image": "allCourses/courseCardImages/global.png"
+      },
+      {
+        "id": 8,
+        "name": "AWS Monitoring and integration",
+        "file_path": "/allCourses/allMarkdownCourses/aws/8. Monitoring and integration-toc.md",
+        "image": "allCourses/courseCardImages/monitoring.png"
+      },
+      {
+        "id": 9,
+        "name": "AWS VPC",
+        "file_path": "/allCourses/allMarkdownCourses/aws/9. VPC-toc.md",
+        "image": "allCourses/courseCardImages/vpc.png"
       }
     ]
   },
   {
     "id": 3,
-    "name": "PostgreSQL",
+    "name": "Databases",
     "image": "allCourses/courseCardImages/posgresql.png",
     "courses": [
       {
         "id": 1,
         "name": "PostgreSQL",
-        "file_path": "/allCourses/allMarkdownCourses/postgres/postgresSQL-toc.md",
+        "file_path": "/allCourses/allMarkdownCourses/dbs/postgres/postgresSQL-toc.md",
         "image": "allCourses/courseCardImages/posgresql.png"
+      },
+      {
+        "id": 2,
+        "name": "Elasticsearch",
+        "image": "allCourses/courseCardImages/elasticsearch.png",
+        "topics": [
+          {
+            "id": 1,
+            "name": "Elasticsearch Intro",
+            "file_path": "/allCourses/allMarkdownCourses/dbs/elasticsearch/elasticsearch-toc.md",
+            "image": "allCourses/courseCardImages/elasticsearch.png"
+          },
+          {
+            "id": 2,
+            "name": "ES Quering",
+            "file_path": "/allCourses/allMarkdownCourses/dbs/elasticsearch/es_quering-toc.md",
+            "image": "allCourses/courseCardImages/es_query.png"
+          }
+        ]
       }
     ]
   },
@@ -66,38 +139,19 @@
   {
     "id": 5,
     "name": "DevOps",
-    "image": "allCourses/courseCardImages/devops.jpeg",
+    "image": "/allCourses/courseCardImages/devops.jpeg",
     "courses": [
       {
         "id": 1,
         "name": "Docker",
-        "file_path": "allCourses/allMarkdownCourses/docker/docker-toc.md",
-        "image": "allCorses/courseCardImages/docker.png"
+        "file_path": "/allCourses/allMarkdownCourses/devops/docker/docker-toc.md",
+        "image": "/allCourses/courseCardImages/docker.png"
       },
       {
         "id": 2,
         "name": "CI/CD",
-        "file_path": "allCourses/allMarkdownCourses/ci-cd/ci-cd-toc.md",
-        "image": "allCourses/courseCardImages/ci-cd.png"
-      },
-      {
-        "id": 3,
-        "name": "Signals",
-        "file_path": "allCourses/allMarkdownCourses/signals/signals-toc.md",
-        "image": "allCourses/courseCardImages/signals.jpg"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Elasticsearch",
-    "image": "allCourses/courseCardImages/elasticsearch.png",
-    "courses": [
-      {
-        "id": 1,
-        "name": "Elasticsearch",
-        "file_path": "/allCourses/allMarkdownCourses/elasticsearch/elasticsearch-toc.md",
-        "image": "allCourses/courseCardImages/elasticsearch.png"
+        "file_path": "/allCourses/allMarkdownCourses/devops/ci-cd/ci-cd-toc.md",
+        "image": "/allCourses/courseCardImages/ci-cd.png"
       }
     ]
   },
@@ -122,25 +176,25 @@
       {
         "id": 1,
         "name": "MLOps",
-        "file_path": "/allCourses/allMarkdownCourses/mlops/mlops-toc.md",
+        "file_path": "/allCourses/allMarkdownCourses/MLOps/MLOPS principles/mlops-toc.md",
         "image": "allCourses/courseCardImages/mlops.jpg"
       },
       {
         "id": 2,
         "name": "MLFlow",
-        "file_path": "/allCourses/allMarkdownCourses/mlflow/mlflow-toc.md",
+        "file_path": "/allCourses/allMarkdownCourses/MLOps/mlflow/mlflow-toc.md",
         "image": "allCourses/courseCardImages/mlflow.png"
       },
       {
         "id": 3,
         "name": "ONNX",
-        "file_path": "/allCourses/allMarkdownCourses/onnx/onnx-toc.md",
+        "file_path": "/allCourses/allMarkdownCourses/MLOps/onnx/onnx-toc.md",
         "image": "allCourses/courseCardImages/onnx.png"
       },
       {
         "id": 4,
         "name": "BentoML",
-        "file_path": "/allCourses/allMarkdownCourses/distributions.md",
+        "file_path": "/allCourses/allMarkdownCourses/MLOps/bentoML/bentoML-toc.md",
         "image": "allCourses/courseCardImages/bentoml.png"
       }
     ]
@@ -158,11 +212,84 @@
         "topics": [
           {
             "id": 1,
-            "name": "React",
-            "file_path": "/allCourses/allMarkdownCourses/react/react-toc.md",
-            "image": "allCourses/courseCardImages/react.jpeg"
+            "name": "Introduction",
+            "file_path": "/allCourses/allMarkdownCourses/frontend/react/1. Introduction-toc.md",
+            "image": "allCourses/courseCardImages/react-intro.png"
+          },
+          {
+            "id": 2,
+            "name": "JSX language",
+            "file_path": "/allCourses/allMarkdownCourses/frontend/react/2. JSX language-toc.md",
+            "image": "allCourses/courseCardImages/jsx.webp"
+          },
+          {
+            "id": 3,
+            "name": "Components",
+            "file_path": "/allCourses/allMarkdownCourses/frontend/react/3. Components-toc.md",
+            "image": "allCourses/courseCardImages/components.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Hooks",
+            "file_path": "/allCourses/allMarkdownCourses/frontend/react/4. Hooks-toc.md",
+            "image": "allCourses/courseCardImages/hooks.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Router",
+            "file_path": "/allCourses/allMarkdownCourses/frontend/react/5. Router-toc.md",
+            "image": "allCourses/courseCardImages/react-router.png"
+          },
+          {
+            "id": 6,
+            "name": "Redux",
+            "file_path": "/allCourses/allMarkdownCourses/frontend/react/6. Redux-toc.md",
+            "image": "allCourses/courseCardImages/redux.png"
+          },
+          {
+            "id": 7,
+            "name": "Optimization",
+            "file_path": "/allCourses/allMarkdownCourses/frontend/react/7. Optimization-toc.md",
+            "image": "allCourses/courseCardImages/optimization.webp"
+          },
+          {
+            "id": 8,
+            "name": "Testing",
+            "file_path": "/allCourses/allMarkdownCourses/frontend/react/8. Testing-toc.md",
+            "image": "allCourses/courseCardImages/jest.webp"
+          },
+          {
+            "id": 9,
+            "name": "Deploy",
+            "file_path": "/allCourses/allMarkdownCourses/frontend/react/9. Deploy-toc.md",
+            "image": "allCourses/courseCardImages/deploy.webp"
           }
         ]
+      },
+      {
+        "id": 2,
+        "name": "Web security",
+        "file_path": "/allCourses/allMarkdownCourses/frontend/web_security/web_security-toc.md",
+        "image": "allCourses/courseCardImages/web_security.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Javascript",
+        "file_path": "/allCourses/allMarkdownCourses/frontend/js/js-toc.md",
+        "image": "allCourses/courseCardImages/js.png"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Back-end",
+    "image": "allCourses/courseCardImages/backend.jpg",
+    "courses": [
+      {
+        "id": 1,
+        "name": "FastAPI",
+        "file_path": "/allCourses/allMarkdownCourses/backend/fastapi/fastapi-toc.md",
+        "image": "allCourses/courseCardImages/fastapi.png"
       }
     ]
   },
@@ -174,8 +301,20 @@
       {
         "id": 1,
         "name": "Puppetters",
-        "file_path": "/allCourses/allMarkdownCourses/puppetters/puppetters-toc.md",
+        "file_path": "/allCourses/allMarkdownCourses/tools/puppetters/puppetters-toc.md",
         "image": "allCourses/courseCardImages/puppeteer.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Pytest",
+        "file_path": "/allCourses/allMarkdownCourses/tools/pytest/pytest-toc.md",
+        "image": "allCourses/courseCardImages/pytest.png"
+      },
+      {
+        "id": 3,
+        "name": "Signals",
+        "file_path": "allCourses/allMarkdownCourses/tools/signals/signals-toc.md",
+        "image": "allCourses/courseCardImages/signals.jpg"
       }
     ]
   }
