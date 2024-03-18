@@ -54,6 +54,19 @@
       }
     ]
   },
+    {
+    "id": 12,
+    "name": "Deep Learning",
+    "image": "allCourses/courseCardImages/ml.webp",
+    "courses": [
+      {
+        "id": 1,
+        "name": "GLiNER",
+        "file_path": "/allCourses/allMarkdownCourses/deeplearning/gliner.md",
+        "image": "allCourses/courseCardImages/gliner.jpg"
+      }
+    ]
+  },
   {
     "id": 2,
     "name": "AWS services",
@@ -500,19 +513,6 @@
         "name": "Signals",
         "file_path": "allCourses/allMarkdownCourses/tools/signals/signals-toc.md",
         "image": "allCourses/courseCardImages/signals.jpg"
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "name": "Deep Learning",
-    "image": "allCourses/courseCardImages/ml.webp",
-    "courses": [
-      {
-        "id": 1,
-        "name": "Neural Networks Components",
-        "file_path": "/allCourses/allMarkdownCourses/deep_learning/1. Neural Networks Components-toc.md",
-        "image": "allCourses/courseCardImages/neural_networks_components.png"
       }
     ]
   },
