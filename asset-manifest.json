@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ByteBrush/static/css/main.bb9cb024.css",
-    "main.js": "/ByteBrush/static/js/main.16619c43.js",
+    "main.js": "/ByteBrush/static/js/main.d6d5c6f9.js",
     "static/js/787.6e91de37.chunk.js": "/ByteBrush/static/js/787.6e91de37.chunk.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/ByteBrush/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/ByteBrush/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -65,11 +65,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/ByteBrush/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/ByteBrush/index.html",
     "main.bb9cb024.css.map": "/ByteBrush/static/css/main.bb9cb024.css.map",
-    "main.16619c43.js.map": "/ByteBrush/static/js/main.16619c43.js.map",
+    "main.d6d5c6f9.js.map": "/ByteBrush/static/js/main.d6d5c6f9.js.map",
     "787.6e91de37.chunk.js.map": "/ByteBrush/static/js/787.6e91de37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb9cb024.css",
-    "static/js/main.16619c43.js"
+    "static/js/main.d6d5c6f9.js"
   ]
 }

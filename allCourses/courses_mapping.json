@@ -1,26 +1,56 @@
 [
   {
-    "id": 1,
-    "name": "Infrastructure",
-    "image": "allCourses/courseCardImages/infrastructure.png",
+    "id": 66,
+    "name": "LLM Fundamentals",
+    "image": "allCourses/courseCardImages/llm-fundamentas.jpg",
     "courses": [
       {
+        "id": 3,
+        "name": "Auto-Regressive Models",
+        "file_path": "/allCourses/allMarkdownCourses/llm/3. model-tokenizer-toc.md",
+        "image": "allCourses/courseCardImages/model.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Tokenizer",
+        "file_path": "/allCourses/allMarkdownCourses/llm/3.1 tokenizer-toc.md",
+        "image": "allCourses/courseCardImages/tokenizer.webp"
+      },
+      {
+        "id": 5,
+        "name": "Training",
+        "file_path": "/allCourses/allMarkdownCourses/llm/5.trainer-toc.md",
+        "image": "allCourses/courseCardImages/trainer.webp"
+      },
+      {
+        "id": 4,
+        "name": "Datasets",
+        "file_path": "/allCourses/allMarkdownCourses/llm/4.datasets-toc.md",
+        "image": "allCourses/courseCardImages/datasets.png"
+      },
+      {
         "id": 1,
-        "name": "Terraform",
-        "file_path": "/allCourses/allMarkdownCourses/infrastructure/terraform/terraform-toc.md",
-        "image": "allCourses/courseCardImages/terraform.png"
+        "name": "Quantization",
+        "file_path": "/allCourses/allMarkdownCourses/llm/1. quantization-toc.md",
+        "image": "allCourses/courseCardImages/quantization.jpg"
       },
       {
         "id": 2,
-        "name": "Ansible-pull",
-        "file_path": "/allCourses/allMarkdownCourses/infrastructure/ansible/ansible-toc.md",
-        "image": "allCourses/courseCardImages/ansible.png"
+        "name": "LoRA",
+        "file_path": "/allCourses/allMarkdownCourses/llm/2. LoRA-toc.md",
+        "image": "allCourses/courseCardImages/LoRA.png"
       },
       {
-        "id": 3,
-        "name": "Observability",
-        "file_path": "/allCourses/allMarkdownCourses/infrastructure/observability/observability-toc.md",
-        "image": "allCourses/courseCardImages/observability.jpg"
+        "id": 7,
+        "name": "Parallelism",
+        "file_path": "/allCourses/allMarkdownCourses/llm/parallelism-toc.md",
+        "image": "allCourses/courseCardImages/parallelism.png"
+      },
+      {
+        "id": 6,
+        "name": "Inference",
+        "file_path": "/allCourses/allMarkdownCourses/llm/6.inference-toc.md",
+        "image": "allCourses/courseCardImages/inference.png"
       }
     ]
   },
@@ -124,7 +154,51 @@
         "id": 1,
         "name": "PostgreSQL",
         "file_path": "/allCourses/allMarkdownCourses/dbs/postgres/postgresSQL-toc.md",
-        "image": "allCourses/courseCardImages/posgresql.png"
+        "image": "allCourses/courseCardImages/posgresql.png",
+        "topics": [
+          {
+            "id": 1,
+            "name": "Introduction",
+            "file_path": "/allCourses/allMarkdownCourses/dbs/postgres/1.introduction-toc.md",
+            "image": "allCourses/courseCardImages/posgresql.png"
+          },
+          {
+            "id": 2,
+            "name": "SQL declarative language",
+            "file_path": "/allCourses/allMarkdownCourses/dbs/postgres/2.sql-declarative-language-toc.md",
+            "image": "allCourses/courseCardImages/sql.webp"
+          },
+          {
+            "id": 3,
+            "name": "Relationships",
+            "file_path": "/allCourses/allMarkdownCourses/dbs/postgres/3.relantionship-toc.md",
+            "image": "allCourses/courseCardImages/relantioships.webp"
+          },
+          {
+            "id": 4,
+            "name": "Querying SQL",
+            "file_path": "/allCourses/allMarkdownCourses/dbs/postgres/4.query-toc.md",
+            "image": "allCourses/courseCardImages/SQL03.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Data types",
+            "file_path": "/allCourses/allMarkdownCourses/dbs/postgres/5.datatypes-toc.md",
+            "image": "allCourses/courseCardImages/pgdata-types.jpg"
+          },
+          {
+            "id": 6,
+            "name": "Database Structure Design patterns",
+            "file_path": "/allCourses/allMarkdownCourses/dbs/postgres/6.patterns-toc.md",
+            "image": "allCourses/courseCardImages/design-pattern.png"
+          },
+          {
+            "id": 7,
+            "name": "Performance",
+            "file_path": "/allCourses/allMarkdownCourses/dbs/postgres/7.performance-toc.md",
+            "image": "allCourses/courseCardImages/perfomance.avif"
+          }
+        ]
       },
       {
         "id": 2,
@@ -367,6 +441,31 @@
     ]
   },
   {
+    "id": 1,
+    "name": "Infrastructure",
+    "image": "allCourses/courseCardImages/infrastructure.png",
+    "courses": [
+      {
+        "id": 1,
+        "name": "Terraform",
+        "file_path": "/allCourses/allMarkdownCourses/infrastructure/terraform/terraform-toc.md",
+        "image": "allCourses/courseCardImages/terraform.png"
+      },
+      {
+        "id": 2,
+        "name": "Ansible-pull",
+        "file_path": "/allCourses/allMarkdownCourses/infrastructure/ansible/ansible-toc.md",
+        "image": "allCourses/courseCardImages/ansible.png"
+      },
+      {
+        "id": 3,
+        "name": "Observability",
+        "file_path": "/allCourses/allMarkdownCourses/infrastructure/observability/observability-toc.md",
+        "image": "allCourses/courseCardImages/observability.jpg"
+      }
+    ]
+  },
+  {
     "id": 11,
     "name": "Back-end",
     "image": "allCourses/courseCardImages/backend.jpg",
@@ -403,5 +502,37 @@
         "image": "allCourses/courseCardImages/signals.jpg"
       }
     ]
+  },
+  {
+    "id": 12,
+    "name": "Deep Learning",
+    "image": "allCourses/courseCardImages/ml.webp",
+    "courses": [
+      {
+        "id": 1,
+        "name": "Neural Networks Components",
+        "file_path": "/allCourses/allMarkdownCourses/deep_learning/1. Neural Networks Components-toc.md",
+        "image": "allCourses/courseCardImages/neural_networks_components.png"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Data Viz",
+    "image": "allCourses/courseCardImages/data-viz.png",
+    "reference": "https://gabrieleghisleni.github.io/Data-Viz/",
+    "courses": []
+  },
+  {
+    "id": 14,
+    "name": "Projects",
+    "image": "allCourses/courseCardImages/projects.png",
+    "courses": []
+  },
+  {
+    "id": 15,
+    "name": "Statistics",
+    "image": "allCourses/courseCardImages/stats.jpeg",
+    "courses": []
   }
 ]
