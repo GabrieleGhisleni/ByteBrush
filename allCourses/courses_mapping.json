@@ -54,7 +54,7 @@
       }
     ]
   },
-    {
+  {
     "id": 12,
     "name": "Deep Learning",
     "image": "allCourses/courseCardImages/ml.webp",
@@ -155,6 +155,49 @@
         "name": "AWS 14 Architecting and ecosystem",
         "file_path": "/allCourses/allMarkdownCourses/aws/14 Architecting and ecosystem-toc.md",
         "image": "allCourses/courseCardImages/aws_pillars.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Tools",
+    "image": "allCourses/courseCardImages/tools.png",
+    "courses": [
+      {
+        "id": 4,
+        "name": "Vim",
+        "file_path": "/allCourses/allMarkdownCourses/tools/vim/vim-toc.md",
+        "image": "allCourses/courseCardImages/vim.webp"
+      },
+      {
+        "id": 6,
+        "name": "JQ",
+        "file_path": "/allCourses/allMarkdownCourses/tools/jq/jq-toc.md",
+        "image": "allCourses/courseCardImages/jq.png"
+      },
+      {
+        "id": 7,
+        "name": "Linux",
+        "file_path": "/allCourses/allMarkdownCourses/tools/linux/linux-toc.md",
+        "image": "allCourses/courseCardImages/linux.jpg"
+      },
+      {
+        "id": 1,
+        "name": "Puppetters",
+        "file_path": "/allCourses/allMarkdownCourses/tools/puppetters/puppetters-toc.md",
+        "image": "allCourses/courseCardImages/puppeteer.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Pytest",
+        "file_path": "/allCourses/allMarkdownCourses/tools/pytest/pytest-toc.md",
+        "image": "allCourses/courseCardImages/pytest.png"
+      },
+      {
+        "id": 3,
+        "name": "Signals",
+        "file_path": "allCourses/allMarkdownCourses/tools/signals/signals-toc.md",
+        "image": "allCourses/courseCardImages/signals.jpg"
       }
     ]
   },
@@ -269,19 +312,6 @@
         "name": "CI/CD",
         "file_path": "/allCourses/allMarkdownCourses/devops/ci-cd/ci-cd-toc.md",
         "image": "/allCourses/courseCardImages/ci-cd.png"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "name": "Linux",
-    "image": "allCourses/courseCardImages/linux.jpg",
-    "courses": [
-      {
-        "id": 1,
-        "name": "Linux",
-        "file_path": "/allCourses/allMarkdownCourses/linux/linux-toc.md",
-        "image": "allCourses/courseCardImages/linux.jpg"
       }
     ]
   },
@@ -488,31 +518,6 @@
         "name": "FastAPI",
         "file_path": "/allCourses/allMarkdownCourses/backend/fastapi/fastapi-toc.md",
         "image": "allCourses/courseCardImages/fastapi.png"
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "name": "Tools",
-    "image": "allCourses/courseCardImages/tools.png",
-    "courses": [
-      {
-        "id": 1,
-        "name": "Puppetters",
-        "file_path": "/allCourses/allMarkdownCourses/tools/puppetters/puppetters-toc.md",
-        "image": "allCourses/courseCardImages/puppeteer.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Pytest",
-        "file_path": "/allCourses/allMarkdownCourses/tools/pytest/pytest-toc.md",
-        "image": "allCourses/courseCardImages/pytest.png"
-      },
-      {
-        "id": 3,
-        "name": "Signals",
-        "file_path": "allCourses/allMarkdownCourses/tools/signals/signals-toc.md",
-        "image": "allCourses/courseCardImages/signals.jpg"
       }
     ]
   },
